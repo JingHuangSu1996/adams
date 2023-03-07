@@ -1,0 +1,23 @@
+{
+  "name": "adams-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JingHuangSu1996/adams.git"
+  },
+  "author": "jinghuang-su",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JingHuangSu1996/adams/issues"
+  },
+  "homepage": "https://github.com/JingHuangSu1996/adams#readme",
+  "devDependencies": {
+    "lerna": "^6.5.1",
+    "nx": "^15.8.5"
+  }
+}
