@@ -5,7 +5,7 @@
   "author": "jing <jingmultiplefive@gmail.com>",
   "homepage": "https://github.com/JingHuangSu1996/adams/tree/main/packages/sample#readme",
   "license": "ISC",
-  "main": "lib/sample.js",
+  "main": "lib/sample.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,6 +13,7 @@
   "files": [
     "lib"
   ],
+  "type": "module",
   "publishConfig": {
     "access": "public"
   },
@@ -21,6 +22,7 @@
     "url": "git+https://github.com/JingHuangSu1996/adams.git"
   },
   "scripts": {
+    "build": "rm -rf dist && rollup --config",
     "test": "node ./__tests__/@solarverse/sample.test.js"
   },
   "bugs": {
