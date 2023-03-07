@@ -4,7 +4,7 @@
   "description": "> TODO: description",
   "author": "jing <jingmultiplefive@gmail.com>",
   "homepage": "https://github.com/JingHuangSu1996/adams/tree/main/packages/sample#readme",
-  "license": "MIT",
+  "license": "ISC",
   "main": "lib/sample.js",
   "directories": {
     "lib": "lib",
@@ -35,5 +35,6 @@
     "rollup-plugin-typescript2": "^0.34.1",
     "ts-jest": "^29.0.5",
     "tslib": "^2.5.0"
-  }
+  },
+  "gitHead": "63b3ed19cab4a40a5ebf373c17ddca6f52fdbf9d"
 }
