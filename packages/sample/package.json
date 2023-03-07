@@ -1,0 +1,39 @@
+{
+  "name": "@solarverse/sample",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "jing <jingmultiplefive@gmail.com>",
+  "homepage": "https://github.com/JingHuangSu1996/adams/tree/main/packages/sample#readme",
+  "license": "MIT",
+  "main": "lib/sample.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JingHuangSu1996/adams.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@solarverse/sample.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/JingHuangSu1996/adams/issues"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.4.0",
+    "@types/react": "^18.0.28",
+    "jest": "^29.5.0",
+    "rollup": "^3.18.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "ts-jest": "^29.0.5",
+    "tslib": "^2.5.0"
+  }
+}
