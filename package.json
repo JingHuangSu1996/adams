@@ -17,6 +17,14 @@
   },
   "homepage": "https://github.com/JingHuangSu1996/adams#readme",
   "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^9.1.2",
     "lerna": "^6.5.1",
     "nx": "^15.8.5"
   }
