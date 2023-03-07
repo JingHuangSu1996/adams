@@ -1,7 +1,14 @@
 {
   "packages": ["packages/*"],
   "useNx": true,
-  "version": "0.0.0",
+  "version": "independent",
   "npmClient": "yarn",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com"
+    }
+  },
+  "independent": true,
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
 }
