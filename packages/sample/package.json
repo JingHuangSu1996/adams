@@ -1,6 +1,6 @@
 {
   "name": "@solarverse/sample",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "jing <jingmultiplefive@gmail.com>",
   "homepage": "https://github.com/JingHuangSu1996/adams/tree/main/packages/sample#readme",
@@ -38,5 +38,5 @@
     "ts-jest": "^29.0.5",
     "tslib": "^2.5.0"
   },
-  "gitHead": "63b3ed19cab4a40a5ebf373c17ddca6f52fdbf9d"
+  "gitHead": "65d90990ea7de560d2ab70145494c738a20b5b01"
 }
